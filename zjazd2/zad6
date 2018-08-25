@@ -10,3 +10,7 @@ print(f'Liczby przed zamianą: {liczby}')
 
 liczby[index_max], liczby[index_min] = liczby[index_min], liczby[index_max]
 print(f'Liczby po zamianie: {liczby}')
+
+
+
+

@@ -1,0 +1,27 @@
+
+produkty_dostepne = {'produkt_1':'ziemniak', 'produkt_2':'marchew', 'produkt_3':'awokado'}
+print("Masz do wyboru:")
+print(produkty_dostepne['produkt_1'])
+print(produkty_dostepne['produkt_2'])
+print(produkty_dostepne['produkt_3'])
+waga = input('Podaj wagę: ')
+produkt = input('Podaj produkt: ')
+cena_awokado = 17
+cena_ziemniak = 1
+cena_marchew = 3
+
+if produkt == 'awokado':
+    cena_za_awo = (waga * cena_awokado)
+    print(f'Płacisz: {cena_za_awo}')
+elif produkt == 'ziemniak':
+    cena_za_ziem = (waga * cena_ziemniak)
+    print(f'Płacisz: {cena_za_ziem}')
+elif produkt == 'marchew':
+    cena_za_mar = (waga * cena_marchew)
+    print(f'Płacisz: {cena_za_mar}')
+
+# cena = waga* produkt
+
+# print(f'Cena, jaką płacisz, to:{cena} ')
+
+
