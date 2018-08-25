@@ -1,0 +1,12 @@
+liczby = ['5','2','1','4','3']
+
+max=max(liczby)
+min=min(liczby)
+
+index_max = liczby.index(max)
+index_min = liczby.index(min)
+
+print(f'Liczby przed zamianą: {liczby}')
+
+liczby[index_max], liczby[index_min] = liczby[index_min], liczby[index_max]
+print(f'Liczby po zamianie: {liczby}')

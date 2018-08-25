@@ -1,0 +1,6 @@
+print('Podaj cene za kg...')
+cena = float(input())
+print('Podaj wage...')
+waga = float(input())
+naleznosc = float(cena*waga)
+print(f'Naleznosc: {naleznosc} zl.') 

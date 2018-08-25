@@ -1,0 +1,15 @@
+float - liczba, moze byc ulamkowa, int - calkowita 
+
+# if 
+# elif 
+# elif
+# else -> jedna opcja na pewno się wykona 
+
+operator zmniejszania -=, operator zwiekszania +=
+np x = 100
+x -= 30 
+print(x) -> 70 
+
+while True: 
+continue wychodzi z pętli do góry
+niezmiennik 
