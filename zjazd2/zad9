@@ -25,3 +25,5 @@ elif produkt == 'marchew':
 # print(f'Cena, jaką płacisz, to:{cena} ')
 
 
+# tworzenie słownika dic() -> pusty słownik
+# inna metoda: słownik = {}
